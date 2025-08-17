@@ -1,0 +1,21 @@
+{
+  "name": "chatcord-terminal-ui",
+  "version": "1.0.0",
+  "description": "Browser-based terminal style chat with rooms, users, and SQLite persistence",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node db.js --init"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
